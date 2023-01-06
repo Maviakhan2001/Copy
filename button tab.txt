@@ -1,0 +1,450 @@
+Html file
+
+<section class="pages">
+        <div class="page is-active" data-page="1">
+            <h2>AD SPECIFICATIONS</h2>
+            <p>We support all Open RTB ad formats on our platform to give you flexible and diverse options to create
+                engaging experience for your audiences.</p>
+            <p>We accepts almost any ad format that is accepted by our exchange partners. Precise specifications
+                vary from exchange to exchange. To ensure your ads are accepted on all inventory sources, please
+                follow the <span>IAB US Display Guidelines</span> and <span>Mobile Guidelines</span>. The following
+                specifications are
+                particularly important for the widest acceptance of ads.</p>
+            <h4>Display (Banner) Ads</h4>
+            <hr>
+            <table class="tftable">
+                <tr>
+                    <td class="td_res">Image dimensions (Desktop):</td>
+                    <td class="td1_res">728x90*, 300x250*, 160x600* (standard sizes) 120x600, 300x600</td>
+                </tr>
+                <tr class="td-3">
+                    <td class="td_res td-2">Image dimensions (Mobile):</td>
+                    <td class="td1_res" >320x50*, 300x50* (smartphone banner, most common) <br>
+                        320x480*, 480x320 (smartphone interstitial) 300x250* (mobile interstitial, tablet in-app,
+                        mobile web)<br>
+                        728x90* (tablet only)
+                        1024x768*, 768x1024 (tablet interstitial)</td>
+                </tr>
+                <tr>
+                    <td class="td_res">File size (kb):</td>
+                    <td class="td1_res">Recommended size upto 100kb, max. bulk upload files up to 700Kb</td>
+                </tr>
+                <tr>
+                    <td class="td_res">File type:</td>
+                    <td class="td1_res">JPG, GIF, PNG, HTML5</td>
+                </tr>
+                <tr>
+                    <td class="td_res">Animation length:</td>
+                    <td class="td1_res">No more than 15 seconds and/or 3 loops</td>
+                </tr>
+                <tr>
+                    <td class="td_res">Border:</td>
+                    <td class="td1_res">Creative must clearly separated from the site content, either by a clear border or a
+                        non-white background color.</td>
+                </tr>
+            </table>
+            <p>*Recommended Ad Sizes</p>
+            <h4>Other Supported Ad Sizes</h4>
+            <p>120x20, 168x28, 180x150, 216x36, 234x60, 250x360, 300x50, 300x170, 300x340, 300x1050, 320x240,
+                320x320, 336x280, 386x300, 400x300, 468x60, 480x360, 480x800, 631x385, 640x480, 700x450, 750x200,
+                970x90, 970x250, 980x120, 980x150, 990x200</p>
+            <h4>Video Ads</h4>
+            <hr>
+            <table class="tftable">
+                <tr >
+                    <td class="td_res">Video dimensions:</td>
+                    <td class="td1_res">Minimum height of 144 px <br>
+                        Up to 2048x1080. Avoid uploading UHD (4K) video or higher resolution.</td>
+                </tr>
+                <tr>
+                    <td class="td_res">spect ratio:</td>
+                    <td class="td1_res">16:9 or 4:3</td>
+                </tr>
+                <tr>
+                    <td class="td_res">Time:</td>
+                    <td class="td1_res"> Up to 60 seconds</td>
+                </tr>
+                <tr>
+                    <td class="td_res">Standard file upload size:</td>
+                    <td class="td1_res">1MB</td>
+                </tr>
+            </table>
+            <h4>VAST/ VPAID</h4>
+            <p>Third-party VAST 2.0 or 3.0 is also accepted. Only InLine Linear ads are accepted; Non-linear and
+                wrappers are not accepted. VAST from a third party server must contain at least one MP4 media file:
+                but it is strongly advised that the following be in the VAST:</p>
+            <ul>
+                <li><i class="fa fa-check"></i>MP4 high bitrate</li>
+                <li><i class="fa fa-check"></i>MP4 low bitrate</li>
+                <li><i class="fa fa-check"></i>FLV high bitrate</li>
+                <li><i class="fa fa-check"></i>FLV low bitrate </li>
+                <li><i class="fa fa-check"></i>(Optionally, but preferably) WebM high bitrate</li>
+                <li><i class="fa fa-check"></i>(Optionally, but preferably) WebM low bitrate</li>
+            </ul>
+            <p>"Low bitrate" is around 400-600kbps, "High bitrate" is around 1000-1200 kbps. Multiple bitrates are
+                recommended for broadest acceptance, with at least one version with a bitrate less than 400kbps for
+                mobile compatibility.</p>
+            <p>Ideally, the low bitrate versions are encoded at a lower resolution (i.e. 640x360 for 16:9 video,
+                640x480 for 4:3 video) if the high bitrate version is at a higher resolution. This is because the
+                quality of a high resolution video at low bitrate will be poor, and some devices, especially mobile,
+                may have difficulty playing very high resolution (i.e. 1080p) video. For more information, see:
+                <span>http://www.iab.net/displayguidelines</span> under 'Universal Ad Package' for guidelines.</p>
+            <h4>POP UNDER ADS</h4>
+            <p>We also do accept POP under ads for HTTPs links. A type of window that appears behind the browser
+                <span>window</span> of a Web site that a user has visited. In contrast to a <span>pop-up ad</span>, which appears over (on top
+                of) the <span>browser</span> window, a pop-under is less obtrusive as it hides behind other windows. Pop-unders
+                are used extensively in advertising on the Web, though advertising is not the only application for
+                pop-under windows.</p>
+
+        </div>
+
+        <!-- --page_2----- -->
+
+        <div class="page" data-page="2">
+            <h2>TRACKING MACROS</h2>
+            <p>The following macros can be used in destination click URLs, JS/Iframe tags or impression tracker.</p>
+            <table class="tftable">
+                <tr>
+                    <th class="td-4">Macro</th>
+                    <th class="td-5">Explanation</th>
+                </tr>
+                <tr>
+                    <td class="td_res">[ADX_TRANSACTION_ID]</td>
+                    <td class="td1_res">Passes the unique ID # of the ad for the impression.</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[ADX_BUNDLE_ID]</td>
+                    <td class="td1_res">Passes a numeric ID (for Apple) or bundle name (for Google) specific to the mobile app
+                        responsible for generating the impression. Example values: “383763″ (Apple) or “com.google.mygoogleapp” (Google) (mobile only)</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[ADX_APP_URL]</td>
+                    <td class="td1_res">Passes a string that outputs the origin or type of application responsible for the simpression. Example value:“https://itunes.apple.com/us/app/angry-birds-classic/id343200656?mt=8” (Apple) or “https://play.google.com/store/apps/details?id=com.lonedwarfgames.tanks.android&hl=en”(Google) (mobile only)</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[ADX_APP_NAME]</td>
+                    <td class="td1_res">Passes name of app that the ad is being served on</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[ADX_APP_VER]</td>
+                    <td class="td1_res">Passes version of app that the ad is being served on</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[adx_publisher_id]</td>
+                    <td class="td1_res">Passes the site ID of the publisher (e.g. 30_692ff3dff09f)</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[adx_network_name]</td>
+                    <td class="td1_res">Passes the name of the exchange for the impression/click.</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[ADX_ADS_REFERRER]</td>
+                    <td class="td1_res">When used in a destination click URL or impression tracker URL, it passes Referrer URL where ad is viewed.(e.g.”http://www.bbc.com/news/business-44232539″)</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[ADX_ADS_DOMAIN]</td>
+                    <td class="td1_res">When used in a destination click URL or impression tracker URL, it passes only the domain name.(e.g. “bbc.com”)</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[adx_camp_code]</td>
+                    <td class="td1_res">Passes the unique ID # of the campaign for the impression/click.</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[adx_banner_code]</td>
+                    <td class="td1_res"> Passes the unique ID # of the Banner for the impression/click.</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[adx_zone_size]</td>
+                    <td class="td1_res">Passes the unique ID # of the ad size for the impression/click.</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[ADS_WIDTH]</td>
+                    <td class="td1_res">Width of the ad unit as a string ad. (e.g. “320”)</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[ADS_HEIGHT]</td>
+                    <td class="td1_res">Height of the ad unit as a string ad. (e.g. “50”)</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[ADX_USER_IP]</td>
+                    <td class="td1_res">Passes the IP address of the user</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[ADX_CARRIER]</td>
+                    <td class="td1_res">Passes the name of the mobile carrier for the impression/click.</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[adx_geo_country]</td>
+                    <td class="td1_res"> Passes the country of visitor (ISO 3166-1 alpha-2 codes: AU, CA, US, CN</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[adx_user_os]</td>
+                    <td class="td1_res">Passes the Device operating system</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[ADX_USER_UA]</td>
+                    <td class="td1_res">Passes the Device user agent</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[ADX_LAT]</td>
+                    <td class="td1_res">Passes the Latitude</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[ADX_LONG]</td>
+                    <td class="td1_res"> Passes the Longitude</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[ADX_DEVICE_MAKE]</td>
+                    <td class="td1_res">Passes the name of the Device make (e.g., “Apple”)</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[ADX_DEVICE_MODEL]</td>
+                    <td class="td1_res">Passes the name of the Device model (e.g., “iPhone”)</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[ADX_DEVICE_ID]</td>
+                    <td class="td1_res">Unhashed mobile advertising identifier (IFA) – specifically, Google Advertising ID or iOS IDFA, when available. (mobile only)</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[ADX_DEVICE_IDFA]</td>
+                    <td class="td1_res">Unhashed IDFA, when available. (mobile only)</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[ADX_ADV_ADID]</td>
+                    <td class="td1_res">Unhashed Google Advertising ID, when available. (mobile only)</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[ADS_CLICK_URL]</td>
+                    <td class="td1_res">Inserts click tracking link.</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[adx_txn_id] </td>
+                    <td class="td1_res">Passes a unique identifier representing the current click/impression, further used for tracking conversions.</td>
+                </tr>
+                <tr>
+                    <td class="td_res">[ADX_ADS_CACHE]</td>
+                    <td class="td1_res">Passes a random number “Cache Buster”.</td>
+                </tr>
+                <tr>
+                    <td class="td_res" >[ADX_ADS_MIMES]</td>
+                    <td class="td1_res" >Passes mime types.</td>
+                </tr>
+            </table>
+            <p>*We suggest to use <span>[ADX_ADS_DOMAIN]</span> macro instead of <span>[ADX_BUNDLE_ID]</span> since <span>[ADX_BUNDLE_ID]</span> handles
+                only in app and <span>[ADX_ADS_DOMAIN]</span> handles both site domain and app bundle within one campaign.</p>
+        </div>
+
+        <!-- --page_3--- -->
+
+        <div class="page" data-page="3">
+            <h2>CONVERSION TRACKING</h2>
+            <h4>What Is It?</h4>
+            <p>Conversion pixels allow you to track the success of your campaign by reporting back an action that
+                the user has completed on your website/app after arriving through an advertisement. Once conversion
+                pixels are placed, you will be able to see how many conversions are generated from each site,
+                placement, banner, etc. Conversion pixels can be used to track actions such as:</p>
+            <ul>
+                <li><i class="fa fa-check"></i>The user makes a purchase.</li>
+                <li><i class="fa fa-check"></i>User signs up for your site.</li>
+                <li><i class="fa fa-check"></i>User submits their e-mail address.</li>
+                <li><i class="fa fa-check"></i>User arrives at your “goal page”.</li>
+                <li><i class="fa fa-check"></i>Any other event or action on your website/app.</li>
+            </ul>
+            <h4>How It Works</h4>
+            <p>A conversion pixel is a short line of code that you will place on your conversion page (“Thank You”
+                page). We generate a unique transaction id value when your ad is clicked by a user. This transaction
+                id value can be passed through to your campaign URL by using [adx_txn_id] macro, we need you to
+                store and send back the information that we called ‘adx_txn_id’.</p>
+            <p>At a later point in time, when the user arrives at your thank you page and loads the conversion pixel
+                our server uses the transaction id which was passed via your landing page URL and saved at your end
+                and passed to the conversion pixel replacing the macro [adx_txn_id] to record conversion against the
+                impression.</p>
+            <p>You will then know which placement on which domain generated the conversion, and which specific
+                creative the user clicked on. This information will be available in your campaign statistics.</p>
+            <h4>To do this:</h4>
+            <p>Enter the landing page link that you use for the ad in the Click URL. Add the parameter for our
+                adx_txn_id at the end of the URL.
+                [adx_txn_id] is a required id for us to track the conversion.
+                The Click URL setup should look like: http://landingpage.com?qs=[adx_txn_id]
+            </p>
+            <p>You can define the name of the variables according to your tracking system. For example, define
+                [adx_txn_id] as qs=, or subid= or v1=. This depends on your tracking system.</p>
+            <p>After clicking on one of your ads, users are redirected to your web property and will hopefully move
+                through your funnel to complete the desired action. This action could include making a purchase,
+                filling out a form, submitting email information, or some other event. In any of these cases, the
+                successful action is referred to as a conversion. Conversion pixels are used to count the number of
+                users that completed an action and attribute that conversion information back to the campaign.</p>
+            <h4>Place the below pixel on your website’s conversion page, before the closing body tag.</h4>
+            <a href="#"> img
+                src=”http://r.adsaxis.com/adx-dir-d/servlet/WebF_AdManager.AdActionManager?nid=4&adx_txn_id=[adx_txn_id]”
+                border=”0″ </a>
+            <p>Once you have updated your website with the conversion pixel, users that arrive at this page by
+                clicking your ad in the future will be counted as conversions.</p>
+            <h4>Example of an actual Pixel (transaction id replaced with a unique id)</h4>
+            <a href="#">img src=”http://r.adsaxis.com/adx-dir-d/servlet/WebF_AdManager.AdActionManager?nid=4&adx_txn_id=9bf2bd6b-5e38-4b2b-9f8b-5e51322f131a”
+                border=”0″</a>
+        </div>
+    </section>
+
+CSS file
+
+pages {
+    padding: 10px 30px;
+    border-radius: 8px;
+    background-color: #FFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pages .page {
+    display: none;
+    margin: 50px;
+    padding: 20px;
+}
+
+.pages .page.is-active {
+    display: block;
+}
+.pages .page a{
+    font-size: 20px;
+    font-family: Poppins,'sans-serif';
+}
+
+.pages .page h2 {
+    color: #06457F;
+    font-size: 28px;
+    font-family: Poppins, "sans-serif";
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.pages .page p {
+    font-size: 22px ;
+    font-family: Poppins, "sans-serif";
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.pages .page h4 {
+    color: #06457F;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    font-family: Poppins, "sans-serif";
+}
+
+.pages .page span {
+    color: Blue;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.pages .page ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.pages .page ul li {
+    padding-right: 40px;
+    font-family: Poppins, "sans serif";
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: #030E22 ;
+}
+
+.pages .page ul li i {
+    margin-right: 10px;
+    background: #06457F;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.pages .page .tftable {
+    padding-bottom: 40px;
+}
+
+.pages .page hr {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.pages .page .tftable .td_res {
+    margin-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-family: Poppins, "sans-serif";
+    display: table-cell;
+    color: #030E22;
+    font-size: 20px;
+    font-weight: 600;
+    width: 300px;
+
+}
+
+.pages .page .tftable .td-2 {
+    position: relative;
+    top: -15px;
+}
+
+.pages .page .tftable .td-3 {
+    padding-top: -100px;
+}
+
+.pages .page .tftable .td-4 {
+    font-size: 20px;
+    font-weight: bold;
+    font-weight: 700;
+    font-family: Poppins, "sans-serif";
+}
+
+.pages .page .tftable .td-5 {
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    font-family: Poppins, "sans-serif";
+    left: 60px;
+}
+
+.pages .page .tftable .td1_res {
+    padding-left: 60px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    line-height: 20px;
+    font-size: 20px;
+    font-family: Poppins, "sans-serif";
+    color: #030E22;
+    width: 70%;
+}
+
+
+JS file
+
+    window.onload = () => {
+        const tab_switchers = document.querySelectorAll('[data-switcher]');
+
+        for (let i = 0; i < tab_switchers.length; i++) {
+            const tab_switcher = tab_switchers[i];
+            const page_id = tab_switcher.dataset.tab;
+
+            tab_switcher.addEventListener('click', () => {
+                document.querySelector('.tabs .tab.is-active').classList.remove('is-active');
+                tab_switcher.parentNode.classList.add('is-active');
+
+                SwitchPage(page_id);
+            });
+        }
+    }
+
+    function SwitchPage(page_id) {
+        console.log(page_id);
+
+        const current_page = document.querySelector('.pages .page.is-active');
+        current_page.classList.remove('is-active');
+
+        const next_page = document.querySelector(`.pages .page[data-page="${page_id}"]`);
+        next_page.classList.add('is-active');
+    }
